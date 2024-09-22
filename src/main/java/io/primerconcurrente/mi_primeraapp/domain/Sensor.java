@@ -32,6 +32,7 @@ public abstract class Sensor {
     @Column(nullable = false)
     private OffsetDateTime lastUpdated;
 
+    public abstract void activar();
     public Long getId() {
         return id;
     }

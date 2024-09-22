@@ -24,4 +24,10 @@ public class SensorAcceso extends Sensor {
         this.tipoDeAcceso = tipoDeAcceso;
     }
 
+    @Override
+    public void activar() {
+        System.out.println("Sensor de acceso activado en la sección" + tipoDeAcceso);
+    }
+
+
 }
