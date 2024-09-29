@@ -20,4 +20,8 @@ public class SensorMovimiento extends Sensor {
         this.hayMovimiento = hayMovimiento;
     }
 
+    @Override
+    public void activar() {
+
+    }
 }

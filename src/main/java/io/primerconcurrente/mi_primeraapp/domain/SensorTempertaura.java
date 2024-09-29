@@ -20,4 +20,8 @@ public class SensorTempertaura extends Sensor {
         this.temperatura = temperatura;
     }
 
+    @Override
+    public void activar() {
+
+    }
 }
